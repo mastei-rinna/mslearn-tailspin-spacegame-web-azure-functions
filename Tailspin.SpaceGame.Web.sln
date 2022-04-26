@@ -1,10 +1,22 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29728.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tailspin.SpaceGame.Web", "Tailspin.SpaceGame.Web\Tailspin.SpaceGame.Web.csproj", "{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.SpaceGame.LeaderboardFunction", "Tailspin.SpaceGame.LeaderboardFunction\Tailspin.SpaceGame.LeaderboardFunction.csproj", "{3D748CF8-88FB-478F-ADBA-5FF012B5A807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tailspin.SpaceGame.LeaderboardFunction", "Tailspin.SpaceGame.LeaderboardFunction\Tailspin.SpaceGame.LeaderboardFunction.csproj", "{3D748CF8-88FB-478F-ADBA-5FF012B5A807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C836EC44-41C8-4FE6-81F2-9BEE848A50F5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		LICENSE = LICENSE
+		package.json = package.json
+		README.md = README.md
+		SECURITY.md = SECURITY.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
